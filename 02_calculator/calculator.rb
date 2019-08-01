@@ -1,3 +1,5 @@
+#write your code here
+
 def add(a,b)
 	return (a+b)
 end
@@ -38,3 +40,4 @@ def factorial(a)
 	end
 	return fact
 end
+

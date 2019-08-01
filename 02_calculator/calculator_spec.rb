@@ -86,17 +86,19 @@ describe "#multiply" do
   it "multiplies several numbers" do
     expect(multiply(2,(multiply(3,4))))
   end
-  
+
 end
 
 describe "#power" do
+
   it "raises one number to the power of another number" do
     expect(power(2,4))
   end
-end
+
 
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
+
   it "computes the factorial of 0" do
     expect(factorial(0))
   end
@@ -112,4 +114,5 @@ describe "#factorial" do
   it "computes the factorial of 10" do
     expect(factorial(10))
   end
+
 end
